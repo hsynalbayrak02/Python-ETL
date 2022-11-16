@@ -1,0 +1,71 @@
+{
+  "table_columns": [
+    {
+      "name": "BusinessEntityID",
+      "type": "int",
+      "mode": "not null"
+    },
+    {
+      "name": "PersonType",
+      "type": "nchar(2)",
+      "mode": "not null"
+    },
+    {
+      "name": "NameStyle",
+      "type": "bit",
+      "mode": "not null"
+    },
+    {
+      "name": "Title",
+      "type": "nvarchar(8)",
+      "mode": "null"
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar(50)",
+      "mode": "not null"
+    },
+    {
+      "name": "MiddleName",
+      "type": "nvarchar(50)",
+      "mode": "null"
+    },
+        {
+      "name": "LastName",
+      "type": "nvarchar(50)",
+      "mode": "not null"
+    },
+        {
+      "name": "Suffix",
+      "type": "nvarchar(10)",
+      "mode": "null"
+    },
+        {
+      "name": "EmailPromotion",
+      "type": "int",
+      "mode": "not null"
+    },
+        {
+      "name": "AdditionalContactInfo",
+      "type": "xml",
+      "mode": "null"
+    },
+            {
+      "name": "Demographics",
+      "type": "xml",
+      "mode": "null"
+    },
+            {
+      "name": "rowguid",
+      "type": "uniqueidentifier",
+      "mode": "not null"
+    },
+                {
+      "name": "ModifiedDate",
+      "type": "datetime",
+      "mode": "not null"
+    }
+  ],
+  "cdc_columns":"ModifiedDate",
+  "pk_column": "BusinessEntityID"
+}

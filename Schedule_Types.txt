@@ -1,0 +1,7 @@
+1|Daily
+2|First Day of Month
+3|Second Day of Month
+4|Last Day Of Month
+5|Hourly
+6|Every 10 Min
+7|Weekly

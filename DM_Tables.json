@@ -1,0 +1,16 @@
+{
+  "tables": [
+    {
+      "target_name": "DWH_WITH_PYHTON-dm-currency_sumary",
+      "load_type": "truncate_insert_dm_method",
+      "schedule_type": 1,
+      "status":"ok"
+    },
+    {
+      "target_name": "DWH_WITH_PYHTON-dm-person_summary",
+      "load_type": "load_data_dm",
+      "schedule_type": 1,
+      "status":"ok"
+    }
+  ]
+}

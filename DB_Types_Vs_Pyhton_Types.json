@@ -1,0 +1,40 @@
+{
+  "mssql":
+  [
+    {
+      "bigint": "int",
+      "int": "int",
+      "smallint": "int",
+      "tinyint": "int",
+      "bit": "int",
+      "decimal": "float",
+      "numeric": "float",
+      "money": "float",
+      "smallmoney": "float",
+      "float": "float",
+      "real": "float",
+      "datetime": "datetime",
+      "smalldatetime": "date",
+      "datetime2": "datetime",
+      "date": "date",
+      "time": "time",
+      "char": "str",
+      "varchar": "str",
+      "text": "str",
+      "nchar": "str",
+      "nvarchar": "str",
+      "ntext": "str",
+      "binary": "str",
+      "varbinary": "str",
+      "image": "x",
+      "cursor": "x",
+      "sql_variant": "x",
+      "table": "x",
+      "timestamp": "timestamp",
+      "uniqueidentifier": "uuid",
+      "xml": "x",
+      "rowversion": "str",
+      "hierarchyid": "x"
+    }
+  ]
+}

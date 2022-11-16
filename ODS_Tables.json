@@ -1,0 +1,25 @@
+{
+  "tables": [
+    {
+      "source_name": "AdventureWorks2019-HumanResources-Shift",
+      "target_name": "DWH_WITH_PYHTON-dbo-Shift",
+      "load_type": "load_data_method_truncate_insert",
+      "schedule_type": 1,
+      "status":"ok"
+    },
+    {
+      "source_name": "AdventureWorks2019-Sales-Currency",
+      "target_name": "DWH_WITH_PYHTON-dbo-Currency",
+      "load_type": "load_data_method_truncate_insert",
+      "schedule_type": 1,
+      "status":"ok"
+    },
+    {
+      "source_name": "AdventureWorks2019-Person-Person",
+      "target_name": "DWH_WITH_PYHTON-dbo-Person",
+      "load_type": "load_data_cdc",
+      "schedule_type": 1,
+      "status":"ok"
+    }
+  ]
+}

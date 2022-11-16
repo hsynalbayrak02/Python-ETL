@@ -1,0 +1,29 @@
+{
+  "dbs":
+  [
+    {
+      "user_name": "",
+      "password": "",
+      "server_name": "",
+      "db_name": "",
+      "db_type": "",
+      "driver": ""
+    },
+    {
+      "user_name": "",
+      "password": "",
+      "server_name": "GM-HUSEYINA-NB",
+      "db_name": "AdventureWorks2019",
+      "db_type": "mssql",
+      "driver": "ODBC+Driver+17+for+SQL+Server"
+    },
+    {
+      "user_name": "",
+      "password": "",
+      "server_name": "GM-HUSEYINA-NB",
+      "db_name": "DWH_WITH_PYHTON",
+      "db_type": "mssql",
+      "driver": "ODBC+Driver+17+for+SQL+Server"
+    }
+  ]
+}

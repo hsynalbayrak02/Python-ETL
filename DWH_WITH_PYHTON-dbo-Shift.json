@@ -1,0 +1,31 @@
+{
+  "table_columns": [
+    {
+      "name": "ShiftID",
+      "type": "tinyint",
+      "mode": "not null"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar(50)",
+      "mode": "not null"
+    },
+    {
+      "name": "StartTime",
+      "type": "time(7)",
+      "mode": "not null"
+    },
+    {
+      "name": "EndTime",
+      "type": "time(7)",
+      "mode": "not null"
+    },
+    {
+      "name": "ModifiedDate",
+      "type": "datetime",
+      "mode": "not null"
+    }
+  ],
+  "cdc_columns":"",
+  "pk_column":"ShiftID"
+}
