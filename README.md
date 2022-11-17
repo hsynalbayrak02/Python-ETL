@@ -1,5 +1,5 @@
-# PyhtonETL
-This project may help you to build ETL pipelines with Pyhton 
+# PythonETL
+This project may help you to build ETL pipelines with Python 
 
 My source and target technologies are Sql server
 
