@@ -1,4 +1,7 @@
 # PyhtonETL
+My source and target technologies are Sql server
+I used AdventureWork2019 DB for source 
+
 1-DB_Infos.json->Contains Server Names,DB Names,User,Passwords And Driver
 2-DB_Types_Vs_Pyhton_Types.json->Mssql data types vs pyhton data types
 3-Schedule_Types.txt->Daily,Monthly,Weekly etc.
